@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.6 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -121,10 +121,8 @@ strong {
 }
 
 /*
-1. Use the user's configured `mono` font-family by default.
-2. Use the user's configured `mono` font-feature-settings by default.
-3. Use the user's configured `mono` font-variation-settings by default.
-4. Correct the odd `em` font sizing in all browsers.
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
 */
 
 code,
@@ -133,12 +131,8 @@ samp,
 pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
-  font-feature-settings: normal;
-  /* 2 */
-  font-variation-settings: normal;
-  /* 3 */
   font-size: 1em;
-  /* 4 */
+  /* 2 */
 }
 
 /*
@@ -578,16 +572,41 @@ video {
   height: 100vh;
 }
 
+<<<<<<< HEAD
 .w-1\/2 {
   width: 50%;
+=======
+.h-60 {
+  height: 15rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+>>>>>>> 3d351ccbe7aedf833d0230be39b67cf707afaddc
 }
 
 .w-2\/3 {
   width: 66.666667%;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .place-content-center {
@@ -606,6 +625,7 @@ video {
   border-radius: 1.5rem;
 }
 
+<<<<<<< HEAD
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -615,6 +635,8 @@ video {
   background-color: rgb(110 150 206 / var(--tw-bg-opacity));
 }
 
+=======
+>>>>>>> 3d351ccbe7aedf833d0230be39b67cf707afaddc
 .bg-king_pink {
   --tw-bg-opacity: 1;
   background-color: rgb(232 183 213 / var(--tw-bg-opacity));
