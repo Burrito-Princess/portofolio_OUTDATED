@@ -1,6 +1,7 @@
 <?php
 
-include("./../../steam.php");
+include("steam.php");
+
                     
                     $apiUrl = 'http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key='. $apikey .'&steamid=76561198299917477&format=json?include_appinfo=1?include_played_free_games=1';
 
@@ -23,3 +24,4 @@ include("./../../steam.php");
 
                     // Decode the JSON response
                     $game_data = json_decode($response, true);
+                    // var_dump($game_data);

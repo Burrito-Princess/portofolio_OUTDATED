@@ -1,6 +1,6 @@
 <?php
 
-include("./../../steam.php");
+include("steam.php");
                     
                     $apiUrl = 'http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=' . $apikey . '&steamids=76561198299917477';
 

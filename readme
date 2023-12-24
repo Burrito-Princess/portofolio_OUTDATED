@@ -1,0 +1,1 @@
+in the steamapi map, add a php file called steam.php with your api key as "$apikey=[your api key]"

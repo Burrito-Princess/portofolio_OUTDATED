@@ -33,7 +33,7 @@
                   <?php 
                     include("./steamapi/userapi.php");
                     include("./steamapi/gamesapi.php");
-                    include("./steamapi/statsgame.php");
+                    // include("./steamapi/statsgame.php");
 
                     // Check if the request was successful
                     if ($data) {
