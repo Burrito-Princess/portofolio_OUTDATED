@@ -1,1 +1,3 @@
-in the steamapi map, add a php file called steam.php with your api key as "$apikey=[your api key]"
+in the steamapi map, add a php file called "steam.php" with your api key as "$apikey=[your api key]"
+
+in the nsapi map, add a php file called "ns.php" with your api key as "$apikey=[your api key]"

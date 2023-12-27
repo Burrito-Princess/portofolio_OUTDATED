@@ -24,4 +24,4 @@ include("steam.php");
 
                     // Decode the JSON response
                     $game_data = json_decode($response, true);
-                    // var_dump($game_data);
+                    // var_dump($game_data['response']['games']['0']['playtime_forever']);
