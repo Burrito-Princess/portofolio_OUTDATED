@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{html,js}", "./dist/*/*.{html,js}", "./dist/*/*/*.{html,js}"],
+  content: ["./dist/*.{html,js}", "./dist/*/*.{html,js,php}", "./dist/*/*/*.{html,js,php}"],
   theme: {
     colors: {
       king_pink: '#e8b7d5',

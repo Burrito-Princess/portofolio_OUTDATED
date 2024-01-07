@@ -49,88 +49,86 @@
         <th>Messages</th>
       </tr>
       <tr>
-        <th class="border p-4" id="0_cat"></th>
-        <th class="border p-4" id="0">No information</th>
-        <th class="border p-4" id="0_time"></th>
-        <th class="border p-4" id="0_plat"></th>
-        <th class="border p-4" id="0_stp"></th>
-        <th class="border p-4" id="0_mesg"></th>
+        <th class="border p-3" id="0_cat"></th>
+        <th class="border p-3" id="0">No information</th>
+        <th class="border p-3" id="0_time"></th>
+        <th class="border p-3" id="0_plat"></th>
+        <th class="border p-3" id="0_stp"></th>
+        <th class="border p-3" id="0_mesg"></th>
       </tr>
       <tr>
-        <th class="border p-4" id="1_cat"></th>
-        <th class="border p-4" id="1">No information</th>
-        <th class="border p-4" id="1_time"></th>
-        <th class="border p-4 plat" id="1_plat"></th>
-        <th class="border p-4" id="1_stp"></th>
-        <th class="border p-4" id="1_mesg"></th>
+        <th class="border p-3" id="1_cat"></th>
+        <th class="border p-3" id="1">No information</th>
+        <th class="border p-3" id="1_time"></th>
+        <th class="border p-3 plat" id="1_plat"></th>
+        <th class="border p-3" id="1_stp"></th>
+        <th class="border p-3" id="1_mesg"></th>
       </tr>
       <tr>
-        <th class="border p-4" id="2_cat"></th>
-        <th class="border p-4" id="2">No information</th>
-        <th class="border p-4" id="2_time"></th>
-        <th class="border p-4 plat" id="2_plat"></th>
-        <th class="border p-4" id="2_stp"></th>
-        <th class="border p-4" id="2_mesg"></th>
+        <th class="border p-3" id="2_cat"></th>
+        <th class="border p-3" id="2">No information</th>
+        <th class="border p-3" id="2_time"></th>
+        <th class="border p-3 plat" id="2_plat"></th>
+        <th class="border p-3" id="2_stp"></th>
+        <th class="border p-3" id="2_mesg"></th>
       </tr>
       <tr>
-        <th class="border p-4" id="3_cat"></th>
-        <th class="border p-4" id="3">No information</th>
-        <th class="border p-4" id="3_time"></th>
-        <th class="border p-4 plat" id="3_plat"></th>
-        <th class="border p-4" id="3_stp"></th>
-        <th class="border p-4" id="3_mesg"></th>
+        <th class="border p-3" id="3_cat"></th>
+        <th class="border p-3" id="3">No information</th>
+        <th class="border p-3" id="3_time"></th>
+        <th class="border p-3 plat" id="3_plat"></th>
+        <th class="border p-3" id="3_stp"></th>
+        <th class="border p-3" id="3_mesg"></th>
       </tr>
       <tr>
-        <th class="border p-4" id="4_cat"></th>
-        <th class="border p-4" id="4">No information</th>
-        <th class="border p-4" id="4_time"></th>
-        <th class="border p-4 plat" id="4_plat"></th>
-        <th class="border p-4" id="4_stp"></th>
-        <th class="border p-4" id="4_mesg"></th>
+        <th class="border p-3" id="4_cat"></th>
+        <th class="border p-3" id="4">No information</th>
+        <th class="border p-3" id="4_time"></th>
+        <th class="border p-3 plat" id="4_plat"></th>
+        <th class="border p-3" id="4_stp"></th>
+        <th class="border p-3" id="4_mesg"></th>
       </tr>
       <tr>
-        <th class="border p-4" id="5_cat"></th>
-        <th class="border p-4" id="5">No information</th>
-        <th class="border p-4" id="5_time"></th>
-        <th class="border p-4 plat" id="5_plat"></th>
-        <th class="border p-4" id="5_stp"></th>
-        <th class="border p-4" id="5_mesg"></th>
+        <th class="border p-3" id="5_cat"></th>
+        <th class="border p-3" id="5">No information</th>
+        <th class="border p-3" id="5_time"></th>
+        <th class="border p-3 plat" id="5_plat"></th>
+        <th class="border p-3" id="5_stp"></th>
+        <th class="border p-3" id="5_mesg"></th>
       </tr>
       <tr>
-        <th class="border p-4" id="6_cat"></th>
-        <th class="border p-4" id="6">No information</th>
-        <th class="border p-4" id="6_time"></th>
-        <th class="border p-4 plat" id="6_plat"></th>
-        <th class="border p-4" id="6_stp"></th>
-        <th class="border p-4" id="6_mesg"></th>
+        <th class="border p-3" id="6_cat"></th>
+        <th class="border p-3" id="6">No information</th>
+        <th class="border p-3" id="6_time"></th>
+        <th class="border p-3 plat" id="6_plat"></th>
+        <th class="border p-3" id="6_stp"></th>
+        <th class="border p-3" id="6_mesg"></th>
       </tr>
       <tr>
-        <th class="border p-4" id="7_cat"></th>
-        <th class="border p-4" id="7">No information</th>
-        <th class="border p-4" id="7_time"></th>
-        <th class="border p-4 plat" id="7_plat"></th>
-        <th class="border p-4" id="7_stp"></th>
-        <th class="border p-4" id="7_mesg"></th>
+        <th class="border p-3" id="7_cat"></th>
+        <th class="border p-3" id="7">No information</th>
+        <th class="border p-3" id="7_time"></th>
+        <th class="border p-3 plat" id="7_plat"></th>
+        <th class="border p-3" id="7_stp"></th>
+        <th class="border p-3" id="7_mesg"></th>
       </tr>
       <tr>
-        <th class="border p-4" id="8_cat"></th>
-        <th class="border p-4" id="8">No information</th>
-        <th class="border p-4" id="8_time"></th>
-        <th class="border p-4 plat" id="8_plat"></th>
-        <th class="border p-4" id="8_stp"></th>
-        <th class="border p-4" id="8_mesg"></th>
+        <th class="border p-3" id="8_cat"></th>
+        <th class="border p-3" id="8">No information</th>
+        <th class="border p-3" id="8_time"></th>
+        <th class="border p-3 plat" id="8_plat"></th>
+        <th class="border p-3" id="8_stp"></th>
+        <th class="border p-3" id="8_mesg"></th>
       </tr>
       <tr>
-        <th class="border p-4" id="9_cat"></th>
-        <th class="border p-4" id="9">No information</th>
-        <th class="border p-4" id="9_time"></th>
-        <th class="border p-4 plat" id="9_plat"></th>
-        <th class="border p-4" id="9_stp"></th>
-        <th class="border p-4" id="9_mesg"></th>
+        <th class="border p-3" id="9_cat"></th>
+        <th class="border p-3" id="9">No information</th>
+        <th class="border p-3" id="9_time"></th>
+        <th class="border p-3 plat" id="9_plat"></th>
+        <th class="border p-3" id="9_stp"></th>
+        <th class="border p-3" id="9_mesg"></th>
       </tr>
     </table>
     <br /><br /><br />
-
-    
   </body>
 </html>
