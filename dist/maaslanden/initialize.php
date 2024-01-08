@@ -9,7 +9,17 @@ try {
   } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
   }
+  $sql = "SELECT * FROM game_" . $_GET["game"] . " WHERE city_id = " . $_GET['city'];
+  $stmt = $conn->prepare($sql); 
+  $stmt->execute();
+  $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+  if($data[0] > 1) {
+    echo "entry Already in Exists<br>";
+  }
+
+  else
+  {
     $sql = "SELECT * FROM game_variables WHERE game_id =" . $_GET['game'] . " AND kind = 'city'";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
@@ -43,14 +53,32 @@ try {
     $industryrandom = rand(0, count($result) - 1);
     $industry = $result[$industryrandom]["variable"];
     echo $industry . "<br>";
-    $initial_pop = rand(100000, 500000);
+    switch ($type){
+      case "village":
+        $initial_pop = rand(1000, 20000);
+        break;
+      case "town":
+        $initial_pop = rand(10000, 50000);
+        break;
+      case "city":
+        $initial_pop = rand(50000, 200000);
+        break;
+      case "capital":
+        $initial_pop = rand(100000, 500000);
+    }
+    
     echo $initial_pop . "<br>";
     $current_pop = $initial_pop;
+    $city_id = $_GET["city"];
+    echo $city_id;
     
   
   
-//   $sql = "INSERT INTO game_" . $_GET['game'] . "(type, name, industry, initial_pop, current_pop, city_id) VALUES ($type, $name, $industry, $initial_pop, $current_pop, $city_id)";
+  $sql = "INSERT INTO game_" . $_GET['game'] . "(type, name, industry, initial_pop, current_pop, city_id) VALUES ('$type', '$name', '$industry', '$initial_pop', '$current_pop', '$city_id')";
 
-//   $stmt = $conn->prepare($sql);
-//   $stmt->execute();
-//   $result = $stmt->fetch(PDO::FETCH_ASSOC);
+  $stmt = $conn->prepare($sql);
+  $stmt->execute();
+  }
+  
+
+    
