@@ -9,7 +9,7 @@ try {
     echo "Connection failed: " . $e->getMessage();
   }
 
-  $sql = "SELECT * FROM game_" . $_GET['game'] . " WHERE city_id =" . $_GET['city'];
+  $sql = "SELECT * FROM game_" . intval($_GET['game']) . " WHERE city_id =" . intval($_GET['city']);
   $stmt = $conn->prepare($sql);
   $stmt->execute();
   $result = $stmt->fetch(PDO::FETCH_ASSOC);
