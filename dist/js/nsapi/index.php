@@ -10,6 +10,7 @@
     <?php include "nsapi.php" ?>
   </head>
   <body >
+    <a href="./../../index.html">Home</a>
     
     <h1 id="where" class="flex justify-center text-xl">Utrecht</h1>
     <h3 id="code" class="flex justify-center">UT</h3>
